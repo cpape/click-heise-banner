@@ -1,0 +1,16 @@
+{
+
+    "manifest_version": 2,
+    "name": "Click Heise Cookie Banner",
+    "version": "0.1",
+
+    "description": "",
+
+    "content_scripts": [
+        {
+            "matches": ["*://www.heise.de/*"],
+            "js": ["clickbanner.js"]
+        }
+  ]
+
+}
