@@ -9,7 +9,7 @@ var clickBanner = function ( count ) {
         if ( banner == null ) {
             setTimeout( function() {
                 clickBanner ( count + 1 );
-            }, 100 );
+            }, 500 );
         } else {
             banner.click();
             return true;
